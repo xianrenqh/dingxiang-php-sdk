@@ -1,7 +1,6 @@
 {
   "name": "xianrenqh/dingxiang-php-sdk",
   "description": "Dingxiang PHP SDK",
-  "version": "1.4.5",
   "type": "library",
   "license": "Apache-2.0",
   "authors": [
