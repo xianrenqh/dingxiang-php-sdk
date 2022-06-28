@@ -1,0 +1,19 @@
+{
+  "name": "xianrenqh/dingxiang-php-sdk",
+  "description": "Dingxiang PHP SDK",
+  "version": "1.4.5",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Dingxiang INC.",
+      "email": "support@dingxiang-inc.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "xianrenqh\\Dingxiang\\": "src"
+    }
+  }
+}
