@@ -6,13 +6,18 @@
  * Time: 下午1:09
  */
 
+namespace xianrenqh\Dingxiang\model;
+
 class SuggestPolicy
 {
+
     public $code;
+
     public $name;
 
     /**
      * SuggestPolicy constructor.
+     *
      * @param $code
      * @param $name
      */

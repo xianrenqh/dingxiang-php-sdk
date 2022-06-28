@@ -6,19 +6,24 @@
  * Time: 下午1:05
  */
 
+namespace xianrenqh\Dingxiang\model;
+
 class HitRule
 {
+
     public $id;
+
     public $leftValue;
 
     /**
      * HitRule constructor.
+     *
      * @param $id
      * @param $leftValue
      */
     public function __construct($id, $leftValue)
     {
-        $this->id = $id;
+        $this->id        = $id;
         $this->leftValue = $leftValue;
     }
 

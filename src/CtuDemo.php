@@ -6,7 +6,9 @@
  * Time: 上午10:35
  */
 namespace xianrenqh\Dingxiang;
-include "./CtuClient.php";
+
+use xianrenqh\Dingxiang\model\CtuRequest;
+use xianrenqh\Dingxiang\CtuClient;
 
 $url       = "http://sec.dingxiang-inc.com/ctu/event.do";
 $appId     = "appId";

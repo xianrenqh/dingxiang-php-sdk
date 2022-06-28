@@ -6,9 +6,14 @@
  * Time: 上午11:39
  */
 
+namespace xianrenqh\Dingxiang\model;
+
 class CtuRequest
 {
+
     public $eventCode;             // 事件code
+
     public $flag;                  // 客户端请求标记,用来标识该次请求
+
     public $data;                  // 事件参数
 }

@@ -9,7 +9,7 @@
 
 namespace xianrenqh\Dingxiang;
 
-include("./model/CaptchaResponse.php");
+use xianrenqh\Dingxiang\model\CaptchaResponse;
 
 class CaptchaClient
 {

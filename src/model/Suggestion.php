@@ -6,19 +6,24 @@
  * Time: 下午8:30
  */
 
+namespace xianrenqh\Dingxiang\model;
+
 class Suggestion
 {
+
     public $code;
+
     public $message;
 
     /**
      * Suggestion constructor.
+     *
      * @param $code
      * @param $message
      */
     public function __construct($code, $message)
     {
-        $this->code = $code;
+        $this->code    = $code;
         $this->message = $message;
     }
 

@@ -6,8 +6,11 @@
  * Time: 下午1:07
  */
 
+namespace xianrenqh\Dingxiang\model;
+
 class RiskType
 {
+
     const RUBBISH_REGISTRATION = "垃圾注册";
     const ACCOUNT_STOLEN = "账号盗用";
     const MACHINE_CRAWLING = "机器爬取";

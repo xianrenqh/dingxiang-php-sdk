@@ -6,6 +6,8 @@
  * Time: 下午1:39
  */
 
+namespace xianrenqh\Dingxiang\util;
+
 class SignUtil
 {
 
